@@ -1,0 +1,15 @@
+With string conversion
+Runtime
+    0 ms 
+    Beats 100.00%
+Memory
+    17.67 MB
+    Beats 88.46%
+
+Without string conversion
+Runtime
+    22 ms 
+    Beats 5.24%
+Memory
+    18.00 MB
+    Beats 18.94%
