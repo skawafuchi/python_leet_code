@@ -7,11 +7,11 @@ class TestSolution():
     """
     solution = Solution()
 
-    def test_example_one(self):
+    def test_example_1(self):
         assert self.solution.twoSum(nums=[2,7,11,15],target=9) == [0,1]
 
-    def test_example_two(self):
+    def test_example_2(self):
         assert self.solution.twoSum(nums=[3,2,4],target=6) == [1,2]
 
-    def tests_example_three(self):
+    def tests_example_3(self):
         assert self.solution.twoSum(nums=[3,3],target=6) == [0,1]

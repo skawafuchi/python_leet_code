@@ -7,7 +7,7 @@ class TestSolution():
     were provided by LeetCode.com
     """
     solution = Solution()
-    def test_example_one(self):
+    def test_example_1(self):
         l1 = ListNode().from_list([2,4,3])
         l2 = ListNode().from_list([5,6,4])
         sum_list = self.solution.addTwoNumbers(l1,l2)
@@ -16,7 +16,7 @@ class TestSolution():
             assert num == sum_list.val
             sum_list = sum_list.next
 
-    def test_example_two(self):
+    def test_example_2(self):
         l1 = ListNode().from_list([0])
         l2 = ListNode().from_list([0])
         sum_list = self.solution.addTwoNumbers(l1,l2)
@@ -25,7 +25,7 @@ class TestSolution():
             assert num == sum_list.val
             sum_list = sum_list.next
 
-    def test_example_three(self):
+    def test_example_3(self):
         l1 = ListNode().from_list([9,9,9,9,9,9,9])
         l2 = ListNode().from_list([9,9,9,9])
         sum_list = self.solution.addTwoNumbers(l1,l2)
