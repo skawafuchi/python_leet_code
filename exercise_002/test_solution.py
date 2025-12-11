@@ -9,6 +9,14 @@ class TestSolution():
     solution = Solution()
 
     def list_comparison(self,list_one:list,list_two:list,solution_list:list)->None:
+        """
+        Helper method to compare the solution with the assumed solution provided by LeetCode.
+
+        Arguments:
+            list_one (list): First list that will be converted into a linked list.
+            list_two (list): Second list that will be converted into a linked list.
+            solution_list (list): List that will be used to compare the created solution against the LeetCode provided solution.
+        """
         l1 = ListNode().from_list(list_one)
         l2 = ListNode().from_list(list_two)
         merged_list = self.solution.addTwoNumbers(l1,l2)        

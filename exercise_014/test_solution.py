@@ -1,6 +1,10 @@
 from solution import Solution
 
 class TestSolution():
+    """
+    Tests the solution for exercise 14. All values for input and output
+    were provided by LeetCode.com
+    """
     solution = Solution()
 
     def test_example_1(self):
