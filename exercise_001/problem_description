@@ -30,11 +30,4 @@ Constraints:
 -109 <= target <= 109
 Only one valid answer exists.
 
-
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        found = false
-        first_value_index = 0
-        while (not found):
-            for index in enumerate(nums):
-                if nums[]
+Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
