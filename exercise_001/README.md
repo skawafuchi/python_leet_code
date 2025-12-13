@@ -35,8 +35,12 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 ## Solution Stats
 Runtime
-    0 ms 
-    Beats 100.00%
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
 Memory
-    18.80 MB
-    Beats 63.12%
+<ul>
+ <li>18.80 MB</li>
+ <li>Beats 63.12%</li>
+</ul>
