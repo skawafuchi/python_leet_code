@@ -1,5 +1,6 @@
-https://leetcode.com/problems/remove-element/description/
+# [Exercise 27: Remove Element](https://leetcode.com/problems/remove-element/description/)
 
+## Description
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
 Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
@@ -46,3 +47,15 @@ Constraints:
 0 <= nums.length <= 100
 0 <= nums[i] <= 50
 0 <= val <= 100
+
+## Solution Stats
+Runtime
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
+Memory
+<ul>
+ <li>17.65 MB</li>
+ <li>Beats 82.49 %</li>
+</ul>

@@ -1,10 +1,9 @@
-https://leetcode.com/problems/longest-common-prefix/description/
+# [Exercise 13: Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
+## Description
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string "".
-
- 
 
 Example 1:
 
@@ -22,3 +21,14 @@ Constraints:
 1 <= strs.length <= 200
 0 <= strs[i].length <= 200
 strs[i] consists of only lowercase English letters if it is non-empty.
+
+## Solution Stats
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
+Memory
+<ul>
+ <li>17.87 MB</li>
+ <li>Beats 20.03%</li>
+</ul>

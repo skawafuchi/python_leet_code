@@ -1,8 +1,7 @@
-https://leetcode.com/problems/palindrome-number/
+# [Exercise 9: Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
+## Description
 Given an integer x, return true if x is a palindrome, and false otherwise.
-
- 
 
 Example 1:
 
@@ -27,3 +26,27 @@ Constraints:
  
 
 Follow up: Could you solve it without converting the integer to a string?
+## Solution Stats
+
+With string conversion
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
+Memory
+<ul>
+ <li>17.67 MB</li>
+ <li>Beats 88.46%</li>
+</ul>
+
+Without string conversion
+Runtime
+<ul>
+ <li> 22 ms</li>
+ <li>Beats 5.24%</li>
+</ul>
+Memory
+<ul>
+ <li>18.00 MB</li>
+ <li>Beats 18.94%</li>
+</ul>

@@ -1,5 +1,6 @@
-https://leetcode.com/problems/valid-parentheses/
+# [Exercise 20: Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
+## Description
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
@@ -12,36 +13,41 @@ Every close bracket has a corresponding open bracket of the same type.
 Example 1:
 
 Input: s = "()"
-
 Output: true
 
 Example 2:
 
 Input: s = "()[]{}"
-
 Output: true
 
 Example 3:
 
 Input: s = "(]"
-
 Output: false
 
 Example 4:
 
 Input: s = "([])"
-
 Output: true
 
 Example 5:
 
 Input: s = "([)]"
-
 Output: false
-
- 
 
 Constraints:
 
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'.
+
+## Solution Stats
+Runtime
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
+Memory
+<ul>
+ <li>18.09 MB</li>
+ <li>Beats 15.28 %</li>
+</ul>

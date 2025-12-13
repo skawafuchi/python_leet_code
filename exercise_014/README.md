@@ -1,5 +1,6 @@
-https://leetcode.com/problems/roman-to-integer/description/
+# [Exercise 14: Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 
+## Description
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 Symbol       Value
@@ -43,3 +44,16 @@ Constraints:
 1 <= s.length <= 15
 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+
+## Solution Stats
+
+Runtime
+<ul>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
+</ul>
+Memory
+<ul>
+ <li>18.04 MB</li>
+ <li>Beats 7.62%</li>
+</ul>
