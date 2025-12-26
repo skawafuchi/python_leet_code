@@ -1,25 +1,35 @@
-# [Exercise 28: Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+# [Exercise 58: Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
 ## Description
-Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+A word is a maximal substring consisting of non-space characters only.
+
  
+
 Example 1:
 
-Input: haystack = "sadbutsad", needle = "sad"
-Output: 0
-Explanation: "sad" occurs at index 0 and 6.
-The first occurrence is at index 0, so we return 0.
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
 Example 2:
 
-Input: haystack = "leetcode", needle = "leeto"
-Output: -1
-Explanation: "leeto" did not occur in "leetcode", so we return -1.
+Input: s = "   fly me   to   the moon  "
+Output: 4
+Explanation: The last word is "moon" with length 4.
+Example 3:
+
+Input: s = "luffy is still joyboy"
+Output: 6
+Explanation: The last word is "joyboy" with length 6.
  
 
 Constraints:
 
-1 <= haystack.length, needle.length <= 104
-haystack and needle consist of only lowercase English characters.
+1 <= s.length <= 104
+s consists of only English letters and spaces ' '.
+There will be at least one word in s.
+
 ## Solution Stats
 Runtime
 <ul>
@@ -28,6 +38,6 @@ Runtime
 </ul>
 Memory
 <ul>
- <li>17.88 MB</li>
- <li>Beats 34.00 %</li>
+ <li>17.33 MB</li>
+ <li>Beats 92.09 %</li>
 </ul>
