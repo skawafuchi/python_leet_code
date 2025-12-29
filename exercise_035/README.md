@@ -30,11 +30,11 @@ nums contains distinct values sorted in ascending order.
 ## Solution Stats
 Runtime
 <ul>
- <li>4 ms</li>
- <li>Beats 1.68%</li>
+ <li>0 ms</li>
+ <li>Beats 100.00%</li>
 </ul>
 Memory
 <ul>
- <li>18.20 MB</li>
- <li>Beats 87.85 %</li>
+ <li>18.04 MB</li>
+ <li>Beats 92.67 %</li>
 </ul>
