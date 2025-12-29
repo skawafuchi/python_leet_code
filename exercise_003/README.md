@@ -1,5 +1,6 @@
-https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+# [Exercise 3: Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
+## Description
 Given a string s, find the length of the longest substring without duplicate characters.
 
 Example 1:
@@ -24,3 +25,15 @@ Constraints:
 
 0 <= s.length <= 5 * 104
 s consists of English letters, digits, symbols and spaces.
+
+## Solution Stats
+Runtime
+<ul>
+ <li>5 ms</li>
+ <li>Beats 42.34%</li>
+</ul>
+Memory
+<ul>
+ <li>17.65 MB</li>
+ <li>Beats 97.35%</li>
+</ul>

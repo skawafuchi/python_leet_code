@@ -6,29 +6,29 @@ class TestSolution():
     were provided by LeetCode.com
     """
     solution = Solution()
-    def test_example_one(self):
+    def test_example_1(self):
         assert self.solution.lengthOfLongestSubstring("abcabcbb") == 3
 
-    def test_example_two(self):
+    def test_example_2(self):
         assert self.solution.lengthOfLongestSubstring("bbbbb") == 1
 
-    def test_example_three(self):
+    def test_example_3(self):
         assert self.solution.lengthOfLongestSubstring("pwwkew") == 3
 
-    def test_example_four(self):
+    def test_example_4(self):
         assert self.solution.lengthOfLongestSubstring(" ") == 1
 
-    def test_example_five(self):
+    def test_example_5(self):
         assert self.solution.lengthOfLongestSubstring("") == 0
 
-    def test_example_six(self):
+    def test_example_6(self):
         assert self.solution.lengthOfLongestSubstring("au") == 2
 
-    def test_example_seven(self):
+    def test_example_7(self):
         assert self.solution.lengthOfLongestSubstring("aab") == 2
 
-    def test_example_eight(self):
+    def test_example_8(self):
         assert self.solution.lengthOfLongestSubstring("abba") == 2
     
-    def test_example_nine(self):
+    def test_example_9(self):
         assert self.solution.lengthOfLongestSubstring("dvdf") == 3
