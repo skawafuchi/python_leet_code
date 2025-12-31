@@ -32,3 +32,9 @@ class TestSolution():
     
     def test_example_9(self):
         assert self.solution.lengthOfLongestSubstring("dvdf") == 3
+
+    def test_example_10(self):
+        assert self.solution.lengthOfLongestSubstring("ckilbkd") == 5
+
+    def test_example_11(self):
+        assert self.solution.lengthOfLongestSubstring("bbtablud") == 6

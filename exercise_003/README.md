@@ -29,11 +29,11 @@ s consists of English letters, digits, symbols and spaces.
 ## Solution Stats
 Runtime
 <ul>
- <li>5 ms</li>
- <li>Beats 42.34%</li>
+ <li>11 ms</li>
+ <li>Beats 95.01%</li>
 </ul>
 Memory
 <ul>
- <li>17.65 MB</li>
- <li>Beats 97.35%</li>
+ <li>17.20 MB</li>
+ <li>Beats 99.20%</li>
 </ul>

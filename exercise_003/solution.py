@@ -1,26 +1,12 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        indices_dict = {}
-        characters_added_after = {}
         longest = 0
-        for letter_index,letter in enumerate(s):
-            if letter in indices_dict and indices_dict[letter] != None:
-                previous_index = indices_dict[letter]
-                if (longest < (letter_index - previous_index)):
-                    longest = letter_index - previous_index
-                indices_dict[letter] = letter_index
+        longest_str = ""
+        for char in s:
+            if char not in longest_str:
+                if len(longest_str)+1 > longest:
+                    longest = len(longest_str)+1
             else:
-                indices_dict[letter] = letter_index
-                if (letter_index == 1):
-                    characters_added_after[s[letter_index-1]] = {letter}
-                elif (letter_index > 1):
-                    for key in characters_added_after:
-                        if (letter in characters_added_after[key]):
-                            indices_dict[letter] = None
-                        else:
-                            characters_added_after[key].add(letter)
-
+                longest_str = longest_str[longest_str.index(char)+1:]
+            longest_str+=char
         return longest
-
-solution = Solution()
-solution.lengthOfLongestSubstring("abcabcbb")
