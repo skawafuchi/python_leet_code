@@ -1,5 +1,5 @@
 from exercise_028.solution import Solution
-from collections import Counter
+
 
 class TestSolution():
     """
@@ -8,9 +8,8 @@ class TestSolution():
     """
     solution = Solution()
 
-
     def test_example_1(self):
-        assert self.solution.strStr("sadbutsad","sad") == 0
-    
+        assert self.solution.strStr("sadbutsad", "sad") == 0
+
     def test_example_2(self):
-        assert self.solution.strStr("leetcode","leeto") == -1
+        assert self.solution.strStr("leetcode", "leeto") == -1

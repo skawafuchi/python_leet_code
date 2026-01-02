@@ -1,11 +1,13 @@
 from exercise_003.solution import Solution
 
+
 class TestSolution():
     """
     Tests the solution for exercise 3. All values for input and output
     were provided by LeetCode.com
     """
     solution = Solution()
+
     def test_example_1(self):
         assert self.solution.lengthOfLongestSubstring("abcabcbb") == 3
 
@@ -29,7 +31,7 @@ class TestSolution():
 
     def test_example_8(self):
         assert self.solution.lengthOfLongestSubstring("abba") == 2
-    
+
     def test_example_9(self):
         assert self.solution.lengthOfLongestSubstring("dvdf") == 3
 
