@@ -7,12 +7,13 @@ class ListNode:
         self.next = next
 
     @classmethod
-    def from_list(cls,linked_list_values:list[int]):
+    def from_list(cls, linked_list_values: list[int]):
         """
         Helper method to create a linked list from a list of integers.
 
         Arguments:
-            linked_list_values list[int]: A list of int values to be used as the links in the linked list.
+            linked_list_values list[int]: A list of int values to be used 
+            as the links in the linked list.
 
         Returns:
             A ListNode with next values being subsequent values of the list.
@@ -28,4 +29,3 @@ class ListNode:
                 last_pointer = last_pointer.next
 
         return return_list
-    

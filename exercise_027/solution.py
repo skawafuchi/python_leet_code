@@ -1,5 +1,5 @@
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         num_not_matches = 0
         for num in nums:
             if num != val:
