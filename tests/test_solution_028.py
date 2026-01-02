@@ -1,4 +1,4 @@
-from solution import Solution
+from exercise_028.solution import Solution
 from collections import Counter
 
 class TestSolution():

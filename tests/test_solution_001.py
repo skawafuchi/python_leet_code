@@ -1,4 +1,4 @@
-from solution import Solution
+from exercise_001.solution import Solution
 
 class TestSolution():
     """

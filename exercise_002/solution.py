@@ -1,5 +1,5 @@
 from typing import Optional
-from listnode import ListNode
+from exercise_002.listnode import ListNode
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:  
