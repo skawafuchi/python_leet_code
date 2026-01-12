@@ -3,7 +3,7 @@ from exercise_066.solution import Solution
 
 class TestSolution():
     """
-    Tests the solution for exercise 58. All values for input and output
+    Tests the solution for exercise 66. All values for input and output
     were provided by LeetCode.com
     """
     solution = Solution()
