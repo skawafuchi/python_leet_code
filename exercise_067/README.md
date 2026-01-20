@@ -23,11 +23,11 @@ Each string does not contain leading zeros except for the zero itself.
 ## Solution Stats
 Runtime
 <ul>
- <li>0 ms</li>
- <li>Beats 100.00%</li>
+ <li>415 ms</li>
+ <li>Beats 38.77%</li>
 </ul>
 Memory
 <ul>
- <li>19.47 MB</li>
- <li>Beats 7.01%</li>
+ <li>19.41 MB</li>
+ <li>Beats 21.53%</li>
 </ul>
